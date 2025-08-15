@@ -2,15 +2,15 @@
 
 int main(){
     
-    char estado = 'A';
-    char código[20] = "A01";
-    char nomedaCidade[20] = "Manaus";
-    int população = 2069689;
-    float areakm² = 11402;
-    float PIB = 103;
-    int númerodepontosturisticos = 35;
+    char estado = 'B';
+    char código[20] = "B01";
+    char nomedaCidade[20] = "Brasília";
+    int população = 212000000;
+    float areakm² = 5761;
+    float PIB = 287;
+    int númerodepontosturisticos = 32;
 
-    printf("Carta 1: \n");
+    printf("Carta 2: \n");
     printf("Estado: %c\n",estado);
     printf("Código: %s\n", código);
     printf("Nome da cidade: %s\n", nomedaCidade);
