@@ -2,34 +2,23 @@
 
 int main(){
     
-    char estado;
-    char código [20];
-    char nomedaCidade [20];
-    int população;
-    float areakm²;
-    float PIB;
-    int númerodepontosturisticos;
+    char estado = 'A';
+    char código[20] = "A01";
+    char nomedaCidade[20] = "Manaus";
+    int população = 2069689;
+    float areakm² = 11402;
+    float PIB = 103;
+    int númerodepontosturisticos = 35;
 
-    printf("Qual e o estado: \n");
-    scanf("%c", estado);
+    printf("Carta 1: \n");
+    printf("Estado: %c\n",estado);
+    printf("Código: %s\n", código);
+    printf("Nome da cidade: %s\n", nomedaCidade);
+    printf("População: %d\n", população);
+    printf("Área km²: %.fkm²\n", areakm²);
+    printf("PIB: %fbilhões\n", PIB);
+    printf("Número de pontos turísticos: %d\n", númerodepontosturisticos);
 
-    printf("Qual é o código: \n");
-    scanf("%c", código);
-
-    printf("Qual é o Nome da cidade: \n");
-    scanf("%c", nomedaCidade);
-
-    printf("Quantidade da população: \n");
-    scanf("%d", população);
-
-    printf("Qual é a area km²: \n");
-    scanf("%e", areakm²);
-
-    printf("Qual o PIB: \n");
-    scanf("%e", PIB);
-
-    printf("Quantidade de número de pontos turísticos: \n");
-    scanf("%d", númerodepontosturisticos);
-
+  
     return 0;
 }
