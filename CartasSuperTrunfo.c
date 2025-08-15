@@ -19,6 +19,7 @@ int main(){
     printf("PIB: %fbilhões\n", PIB);
     printf("Número de pontos turísticos: %d\n", númerodepontosturisticos);
 
-  
+
     return 0;
+
 }
